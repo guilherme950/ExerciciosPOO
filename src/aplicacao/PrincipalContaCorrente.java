@@ -48,7 +48,7 @@ public class PrincipalContaCorrente {
 		System.out.print("Nome: ");
 		String nome = sc.nextLine();
 		System.out.print("Conta: ");
-		String conta = sc.nextLine();
+		int conta = sc.nextInt();
 		System.out.print("Agencia: ");
 		String agencia = sc.nextLine();
 		

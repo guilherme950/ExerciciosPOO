@@ -1,25 +1,26 @@
 package entidades;
 
 public class ContaCorrente {
-	private String conta, nomeCliente, agencia;
+	private String nomeCliente, agencia;
+	private int conta;
 	private Double saldo;
 	
 	public ContaCorrente() {
 		this.saldo = 0.0;
 	}
 	
-	public ContaCorrente(String conta, String nomeCliente, String agencia) {
+	public ContaCorrente(int conta, String nomeCliente, String agencia) {
 		this.conta = conta;
 		this.nomeCliente = nomeCliente;
 		this.agencia = agencia;
 		this.saldo = 0.0;
 	}
 
-	public String getConta() {
+	public int getConta() {
 		return conta;
 	}
 
-	public void setConta(String conta) {
+	public void setConta(int conta) {
 		this.conta = conta;
 	}
 
